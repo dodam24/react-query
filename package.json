@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "base-infinite-swapi",
+=======
+  "name": "base-blog-em",
+>>>>>>> 112966e63f27934bdf612f40532fd83e84c90c18
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +15,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tanstack/react-query": "^5.90.11",
     "@tanstack/react-query-devtools": "^5.91.1",
     "react": "^18.2.0",
@@ -18,6 +23,15 @@
     "react-infinite-scroller": "^1.2.6"
   },
   "devDependencies": {
+=======
+    "@tanstack/react-query": "^5.90.10",
+    "@tanstack/react-query-devtools": "^5.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.8.3",
+>>>>>>> 112966e63f27934bdf612f40532fd83e84c90c18
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
