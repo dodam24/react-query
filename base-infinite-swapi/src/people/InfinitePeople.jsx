@@ -34,6 +34,7 @@ export function InfinitePeople() {
                             name={person.name} 
                             hairColor={person.hair_color} 
                             eyeColor={person.eye_color}  
+                        
                         />
                     )
                 })
