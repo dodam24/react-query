@@ -62,7 +62,7 @@ export function useAppointments() {
     const fallback: AppointmentDateMap = {};
 
     const { data: appointments = fallback } = useQuery({
-        queryKey: [queryKeys.appointments],
+        queryKey: [queryKeys.appointments, monthYear.year, monthYear.month],
         queryFn: () => getAppointments(monthYear.year, monthYear.month),
     });
 
